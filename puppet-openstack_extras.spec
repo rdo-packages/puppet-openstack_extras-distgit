@@ -10,7 +10,7 @@ Source0:        https://github.com/openstack/puppet-openstack_extras/archive/%{v
 
 BuildArch:      noarch
 
-Requires:       puppet-apt
+#Requires:       puppet-apt
 Requires:       puppet-corosync
 Requires:       puppet-stdlib
 Requires:       puppet >= 2.7.0
