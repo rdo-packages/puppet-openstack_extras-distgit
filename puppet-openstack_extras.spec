@@ -54,3 +54,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/openstack_extras/
 - Update to 9.2.0
 
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/puppet-openstack_extras/commit/?id=d82fb1bd5ccb52aa23447be1850dc64ca965ca1b
