@@ -3,7 +3,7 @@ Name:           puppet-openstack_extras
 Version:        XXX
 Release:        XXX
 Summary:        Puppet OpenStack Extras Module
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://launchpad.net/puppet-openstack-extras
 
