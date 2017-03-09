@@ -45,3 +45,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/openstack_extras/
 
 %changelog
 
+
