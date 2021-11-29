@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-openstack_extras
-Version:        16.3.0
+Version:        16.4.0
 Release:        1%{?dist}
 Summary:        Puppet OpenStack Extras Module
 License:        ASL 2.0
@@ -44,6 +44,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/openstack_extras/
 
 
 %changelog
+* Mon Nov 29 2021 RDO <dev@lists.rdoproject.org> 16.4.0-1
+- Update to 16.4.0
+
 * Wed May 06 2020 RDO <dev@lists.rdoproject.org> 16.3.0-1
 - Update to 16.3.0
 
