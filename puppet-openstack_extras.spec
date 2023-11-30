@@ -1,8 +1,8 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0xa7475c5f2122fec3f90343223fe3bf5aad1080e4
+%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-openstack_extras
-Version:        21.0.0
+Version:        21.0.1
 Release:        1%{?dist}
 Summary:        Puppet OpenStack Extras Module
 License:        ASL 2.0
@@ -65,6 +65,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/openstack_extras/
 
 
 %changelog
+* Thu Nov 30 2023 RDO <dev@lists.rdoproject.org> 21.0.1-1
+- Update to 21.0.1
+
 * Thu Oct 20 2022 RDO <dev@lists.rdoproject.org> 21.0.0-1
 - Update to 21.0.0
 
