@@ -2,7 +2,7 @@
 %global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-openstack_extras
-Version:        24.0.0
+Version:        24.0.1
 Release:        1%{?dist}
 Summary:        Puppet OpenStack Extras Module
 License:        ASL 2.0
@@ -65,6 +65,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/openstack_extras/
 
 
 %changelog
+* Wed Apr 24 2024 RDO <dev@lists.rdoproject.org> 24.0.1-1
+- Update to 24.0.1
+
 * Thu Apr 18 2024 RDO <dev@lists.rdoproject.org> 24.0.0-1
 - Update to 24.0.0
 
