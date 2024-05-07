@@ -25,13 +25,8 @@ BuildRequires:  openstack-macros
 %endif
 
 #Requires:       puppet-apt
-Requires:       puppet-corosync
 Requires:       puppet-stdlib
 Requires:       puppet >= 2.7.0
-
-%if 0%{?rhel} > 8
-Requires:       rubygem-rexml
-%endif
 
 %description
 Puppet OpenStack Extras Module
